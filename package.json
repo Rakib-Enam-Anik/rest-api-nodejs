@@ -4,6 +4,7 @@
   "description": ". we will follow MVC architecture\r .routes demo\r   ./users-> GET -> {id,username,email}\r   ./users/-> POST -> {username, email}\r   ./users/:id->PUT->update the user\r   ./users/:id->DELETE->delete the user",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
